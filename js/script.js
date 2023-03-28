@@ -64,8 +64,8 @@ const displayBooks = () => {
             `
             <td>${book.title}</td>
             <td>${book.author}</td>
-            <td><button id='toggle-button'>${book.status}</button></td>
-            <td><button id='delete-button' class='u-pull-right'>DELETE</button></td>
+            <td><button id='toggle-button' class='button-width'>${book.status}</button></td>
+            <td><button id='delete-button' class='u-pull-right button-width'>DELETE</button></td>
             `;
 
         table.appendChild(row);
