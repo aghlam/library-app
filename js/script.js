@@ -47,10 +47,10 @@ function displayBooks() {
     library.forEach(book => {
         const row = 
             `<tr>
-                <td>${book.title}</td>
+                <td class=''>${book.title}</td>
                 <td>${book.author}</td>
                 <td>${book.status}</td>
-                <td><button id='delete-button'>DELETE</button></td>
+                <td><button id='delete-button' class='u-pull-right'>DELETE</button></td>
             </tr>`;
 
         table.insertAdjacentHTML("beforeend", row);

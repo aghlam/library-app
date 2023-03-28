@@ -1,0 +1,27 @@
+
+.width-35 {
+    width: 35%;
+}
+
+.width-15 {
+    width: 15%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
